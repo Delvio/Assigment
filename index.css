@@ -1,11 +1,11 @@
+/*page body*/
 body{
     font-family: normal normal bold 40px/45px Philosopher;
     color: #722828;
     padding: 40px 40px;
-
-    /* transform: scale(0.8); */
+    /* transform: scale(0.5); */
 }
-
+/*header at top of page*/
 header{
     height: 100px;
     width: auto;
@@ -19,12 +19,20 @@ header{
     align-items:center;
     /* background-color: #f0e1ce; */
 }
-
+/*icons size on header*/
 .header-bar img{
     width: 40px;
     height: 40px;
 }
 
+/*icons on header*/
+.search-icon,.instagram-icon, .facebook-icon{
+    flex-direction: column;
+    /* background-color:  #91a0a5; */
+    margin-right: 16px;
+}
+
+/*search bar on header*/
 #search {
     background-image: url('images/Icon/Icon-search.png');
     background-repeat: no-repeat;
@@ -40,13 +48,7 @@ header{
     text-align: center;
   }
 
-
-.search-icon,.instagram-icon, .facebook-icon{
-    flex-direction: column;
-    /* background-color:  #91a0a5; */
-    margin-right: 16px;
-}
-
+/*nav bar*/
 nav img{
     width: 807px;
     height: 605px;
@@ -66,13 +68,14 @@ nav{
     align-items: center;
 }
 
+/*Home page*/
 .home-nav > a{
     display: block;
     padding: 20px 80px;
     color: #722828;
     text-decoration: none;
 }
-
+/*banner image on home page*/
 .banner{
     padding: 60px 20px;
     /* background-color: rgb(255, 255, 255); */
@@ -86,6 +89,7 @@ nav{
 div h1{
     text-align: center;
 }
+/*New Arrivals slide, product notebooks slide and product erasers slide on home page*/
 .newarrival-container,.homenotebook-container, .homeerasers-container{
     display: flex;
     flex-direction: row;
@@ -124,27 +128,14 @@ div h1{
     text-align: center;
 }
 
-.product-header h1{
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-
-.product-container{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    align-items: flex-start;
-    /* background-color: #f0e1ce; */
-}
-
+/*show all product */
 .main-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/*side bar for choose product category*/
 .side-bar{
     border: 1px solid #000000;
     display: flex;
@@ -165,27 +156,8 @@ div h1{
     /* background-color:#d6b0a3; */
 }
 
-address{
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #d6b0a3; */
-}
 
-.email-link > a {
-    color: #722828;
-}
-.email img{
-    width: 35px;
-    height: 30px;
-}
-.email-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*product list on product page*/
 .list-container{
     padding: 10px;
     color: #5a4d3e;
@@ -220,6 +192,7 @@ address{
     font-family: normal normal bold 40px/45px Philosopher;
 }
 
+/*quick view button under items name on product list */
 .quick-view-section{
     display: flex;
     justify-content: center;
@@ -241,8 +214,129 @@ address{
     background-color: #a5a4a4;
 }
 
-p > a {                                                /*hyperlink of address for the shop in footer */
-    color: #722828;
+
+/*about page*/
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 1800px;
+    padding: 20px 20px;
+    /* background-color: #707070; */
+}
+
+.about-top-body, .about-bottom-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.about-top-left img{
+    width: 536px;
+    height: 536px;
+    padding: 20px 20px;
+}
+.about-top-right, .about-bottom-left{
+    display: flex;
+    flex-direction: column;
+    width: 1136px;
+    height: 500px;     
+    padding: 20px 20px;
+}
+.about-top-right > p{
+    font: normal normal normal 40px/70px Big Caslon;
+    letter-spacing: 0px;
+    color: #100F0F;
+    opacity: 1;
+}
+.about-bottom-left > p{
+    font: normal normal normal 40px/50px Songti SC;
+    letter-spacing: 0px;
+    color: #3B3535;
+    opacity: 1;
+}
+.about-bottom-right img{
+    width: 600px;
+    height: 600px;
+    padding: 20px 20px;
+}
+
+
+/*Cart page*/
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 1800px;
+    padding: 20px 20px;
+    font: normal normal bold 50px/70px Songti SC;
+    letter-spacing: 0px;
+    color: #120303F8;
+    padding: 20px 20px;
+    /* background-color: #707070; */
+}
+.cart-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #707070;
+    border-width: 1px;
+}
+.cart-product-img img{
+    width: 326px;
+    height: 326px;
+}
+.cart-order-summary{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.cart-price-details{
+    display: flex;
+    flex-direction: column;
+}
+.cart-price-details > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+/*check out button on cart page*/
+.check-out-button{
+    font: normal normal bold 50px/70px Songti SC;
+    letter-spacing: 0px;
+    color: #120303F8;
+    background: #CEB1B1 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 40px;
+    opacity: 1;
+
+}
+.check-out-button:hover{
+    background-color: #a5a4a4;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    border-width: 5px 20px;
+    border: 1px solid #000000;
+}
+
+/*address on footer*/
+address{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #d6b0a3; */
 }
 .address img{
     width: 35px;
@@ -253,9 +347,22 @@ p > a {                                                /*hyperlink of address fo
     justify-content: center;
     align-items: center;
 }
-footer{
-    text-align: center;
-    border-width: 5px 20px;
-    border: 1px solid #000000;
 
+/*hyperlink of address for the shop in footer */
+p > a {                                                
+    color: #722828;
+}
+
+/*email on footer*/
+.email-link > a {
+    color: #722828;
+}
+.email img{
+    width: 35px;
+    height: 30px;
+}
+.email-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
