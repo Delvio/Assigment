@@ -1,0 +1,83 @@
+[33mcommit afb070251ac5a737592ddcc3f2412fdceda9b946[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 25 15:28:06 2022 -0500
+
+    create Detail Product Choosing
+
+[33mcommit 070061bc9da6b3be25f8aa185f8ab71550289f16[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: ec1c832 1602404
+Author: HIUWA-CHUNG <113071824+HIUWA-CHUNG@users.noreply.github.com>
+Date:   Mon Nov 21 19:15:19 2022 -0500
+
+    Merge pull request #4 from Delvio/feature/product
+    
+    Feature/product
+
+[33mcommit 1602404844cb560f49016038c5546d68e176ba6d[m[33m ([m[1;31morigin/feature/product[m[33m, [m[1;32mfeature/product[m[33m)[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Mon Nov 21 19:14:35 2022 -0500
+
+    added more code
+
+[33mcommit e5e4091dfb0a3678386a2daac1e47b08ab877082[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Mon Nov 21 18:47:13 2022 -0500
+
+    submitting all the code
+
+[33mcommit ec1c832324c330f52f7f50083397ccb36647f3a0[m
+Merge: bb9fa78 30dabc0
+Author: HIUWA-CHUNG <113071824+HIUWA-CHUNG@users.noreply.github.com>
+Date:   Mon Nov 21 18:51:50 2022 -0500
+
+    Merge pull request #2 from Delvio/feature/product
+    
+    created product page
+
+[33mcommit bb9fa781debd3123f4ed8720e0ff83527b40f20f[m
+Merge: 94b402f 49ecbb3
+Author: HIUWA-CHUNG <113071824+HIUWA-CHUNG@users.noreply.github.com>
+Date:   Mon Nov 21 18:51:37 2022 -0500
+
+    Merge pull request #3 from Delvio/feature/cart
+    
+    created product page
+
+[33mcommit 49ecbb386295b8a3def548f801d2ec24ee91e04e[m[33m ([m[1;31morigin/feature/cart[m[33m, [m[1;32mfeature/cart[m[33m)[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 18 14:28:19 2022 -0500
+
+    created product page
+
+[33mcommit 94b402f98d96c5279b729213c698f5f7a5bf32d4[m
+Merge: 77041fd bcbb72e
+Author: HIUWA-CHUNG <113071824+HIUWA-CHUNG@users.noreply.github.com>
+Date:   Fri Nov 18 14:51:28 2022 -0500
+
+    Merge pull request #1 from Delvio/feature/homepage
+    
+    created and provided styles to homepage
+
+[33mcommit 30dabc07688702c7a6e84e930efb0eded071b48b[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 18 14:28:19 2022 -0500
+
+    created product page
+
+[33mcommit bcbb72e6ada3fc2c317dd7f4234c1d921a6d1a65[m[33m ([m[1;31morigin/feature/homepage[m[33m, [m[1;32mfeature/homepage[m[33m)[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 18 14:19:16 2022 -0500
+
+    created and provided styles to homepage
+
+[33mcommit 77041fdd3e4dbafa70361ec476d7785da541c12a[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 18 14:12:59 2022 -0500
+
+    added git ignore file to project
+
+[33mcommit 1b63c8ceab9db7106b5bccc8aba430533877c18e[m
+Author: HIUWA-CHUNG <javychunghw@gmail.com>
+Date:   Fri Nov 18 14:11:54 2022 -0500
+
+    uploading images to project

@@ -32,6 +32,16 @@ header{
     margin-right: 16px;
 }
 
+.search-icon{
+    width: 25px !important;
+    align-self: center;
+}
+
+.search-field{
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+
 
 
 /*search bar on header*/
@@ -189,11 +199,14 @@ div h1,h2{
     height: 272px;
     }
 
-.item-name{
+.item-name, .item-name > a{
     text-align: center;
     color: #722828;
     font-family: normal normal bold 40px/45px Philosopher;
+    text-decoration: none;
 }
+
+
 
 /*quick view button under items name on product list */
 .quick-view-section{
@@ -299,7 +312,7 @@ div h1,h2{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.choosing-img-2 img, .choosing-img-3 img, .choosing-img-4 img{
+.choosing-img-2 img, .choosing-img-3 img, .choosing-img-4 img, .choosing-img-5 img{
 
     width: 200px;
     height: 200px;
@@ -454,7 +467,7 @@ footer{
 address{
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 70px;
     justify-content: center;
     align-items: center;
     /* background-color: #d6b0a3; */
@@ -486,14 +499,4 @@ p > a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.search-icon{
-    width: 25px !important;
-    align-self: center;
-}
-
-.search-field{
-    border: 0px solid transparent;
-    background-color: transparent;
 }
