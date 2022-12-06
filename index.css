@@ -86,8 +86,6 @@ body > header > nav > div > a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 72px;
-  margin-right: 72px;
 }
 
 div > h1 {
