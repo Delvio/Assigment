@@ -402,7 +402,7 @@ body > main > div > div.choosing-img-body > div.choosing-img-small {
   margin-top: 34px;
 }
 
-body > main > div {
+#product-choosing-container {
   display: flex;
   justify-content: center;
 }
@@ -444,7 +444,7 @@ body > main > div > div.choosing-text-body > div.add-to-cart > button {
   border: 1px #707070 solid;
   margin-top: 14px;
 }
-body > main > div {
+.about-container {
   display: flex;
   flex-direction: column;
 }
