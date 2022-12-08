@@ -55,6 +55,10 @@ let data = fetch(url)
       button.type = 'button';
       button.textContent = 'Quick View';
 
+      button.addEventListener('click', () => {
+        window.location.href = `products/product-detail.html?id=${item.id}`;
+      });
+
       quickViewSection.appendChild(button);
 
       let itemName = document.createElement('div');
