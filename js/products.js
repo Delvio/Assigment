@@ -60,7 +60,7 @@ let data = fetch(url)
       let itemName = document.createElement('div');
       itemName.className = 'item-name';
       let link2 = document.createElement('a');
-      link2.href = 'products/product-detail.html?id=${item.id}';
+      link2.href = `products/product-detail.html?id=${item.id}`;
       link2.textContent = item.name + ' $' + item.price;
       itemName.appendChild(link2);
 
